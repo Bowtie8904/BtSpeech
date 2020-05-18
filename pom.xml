@@ -50,12 +50,6 @@
 		</dependency>
 		<dependency>
 			<groupId>de.dfki.mary</groupId>
-			<artifactId>marytts</artifactId>
-			<version>5.2</version>
-			<type>pom</type>
-		</dependency>
-		<dependency>
-			<groupId>de.dfki.mary</groupId>
 			<artifactId>voice-cmu-slt-hsmm</artifactId>
 			<version>5.2</version>
 		</dependency>
@@ -63,11 +57,6 @@
 			<groupId>de.dfki.mary</groupId>
 			<artifactId>voice-dfki-spike-hsmm</artifactId>
 			<version>5.2</version>
-		</dependency>
-		<dependency>
-			<groupId>com.ibm.icu</groupId>
-			<artifactId>icu4j</artifactId>
-			<version>54.1.1</version>
 		</dependency>
 	</dependencies>
 </project>

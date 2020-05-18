@@ -26,3 +26,4 @@ hs_err_pid*
 .project
 /target/
 *.prefs
+src/test/Test.java
