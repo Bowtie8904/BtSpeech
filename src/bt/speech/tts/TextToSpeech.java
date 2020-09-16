@@ -2,8 +2,8 @@ package bt.speech.tts;
 
 import javax.sound.sampled.AudioInputStream;
 
-import bt.utils.log.Logger;
-import bt.utils.thread.Threads;
+import bt.log.Logger;
+import bt.scheduler.Threads;
 import marytts.LocalMaryInterface;
 import marytts.MaryInterface;
 import marytts.exceptions.MaryConfigurationException;
