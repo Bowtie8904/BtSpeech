@@ -2,7 +2,6 @@ package bt.speech.tts;
 
 import javax.sound.sampled.AudioInputStream;
 
-import bt.log.Logger;
 import bt.scheduler.Threads;
 import marytts.LocalMaryInterface;
 import marytts.MaryInterface;
@@ -29,7 +28,7 @@ public final class TextToSpeech
         }
         catch (MaryConfigurationException e)
         {
-            Logger.global().print(e);
+            e.printStackTrace();
         }
     }
 
@@ -58,7 +57,7 @@ public final class TextToSpeech
         }
         catch (SynthesisException e)
         {
-            Logger.global().print(e);
+            e.printStackTrace();
         }
         return null;
     }
@@ -80,7 +79,7 @@ public final class TextToSpeech
                     }
                     catch (InterruptedException e)
                     {
-                        Logger.global().print(e);
+                        e.printStackTrace();
                     }
                 }
             }
@@ -94,7 +93,7 @@ public final class TextToSpeech
 
     public static synchronized void setup()
     {
-        Logger.global().print("Setting up TextToSpeech components.");
+        System.out.println("Setting up TextToSpeech components.");
         AudioPlayer ap = new AudioPlayer(getAudioInputStream("."));
         ap.start();
     }
