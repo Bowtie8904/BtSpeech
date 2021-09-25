@@ -3,7 +3,6 @@ package bt.speech.tts;
 import javax.sound.sampled.AudioInputStream;
 
 import bt.scheduler.Threads;
-import marytts.LocalMaryInterface;
 import marytts.MaryInterface;
 import marytts.exceptions.MaryConfigurationException;
 import marytts.exceptions.SynthesisException;
@@ -23,7 +22,7 @@ public final class TextToSpeech
     {
         try
         {
-            marytts = new LocalMaryInterface();
+            marytts = new BtLocalMaryInterface();
             setVoice(TTSVoice.DFKI_SPIKE_HSMM);
         }
         catch (MaryConfigurationException e)

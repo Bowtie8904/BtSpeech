@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.Bowtie8904:BtReflection:21e4fe990e">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/Bowtie8904/BtReflection/21e4fe990e/BtReflection-21e4fe990e.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/Bowtie8904/BtReflection/21e4fe990e/BtReflection-21e4fe990e-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/Bowtie8904/BtReflection/21e4fe990e/BtReflection-21e4fe990e-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

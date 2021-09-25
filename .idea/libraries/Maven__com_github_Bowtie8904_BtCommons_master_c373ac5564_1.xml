@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.Bowtie8904:BtCommons:master-c373ac5564-1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/Bowtie8904/BtCommons/master-c373ac5564-1/BtCommons-master-c373ac5564-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/Bowtie8904/BtCommons/master-c373ac5564-1/BtCommons-master-c373ac5564-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/Bowtie8904/BtCommons/master-c373ac5564-1/BtCommons-master-c373ac5564-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
